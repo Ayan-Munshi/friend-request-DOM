@@ -1,0 +1,55 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+
+#card{
+
+    height: 500px;
+    width: 300px;
+    background: rgb(190, 207, 214);
+    border-radius: 40px;
+    padding: 30px;
+    box-shadow: rgb(92, 125, 206) 15px 15px ; /*adding shadow to card */
+    text-align: center; /* to set the text items (buttons,name etc) at the center of the card */
+}
+
+#card img {
+    height: 50% ;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+    box-shadow:  rgb(129, 184, 228) 5px 5px;
+}
+
+#card h1{
+    font-size: 30px;
+    margin: 10px 20px;
+    text-shadow: rgb(139, 138, 138) 3px 2px  ;
+}
+
+#card h5{
+    font-size: 25px;
+    color: red;
+    margin: 20px;
+}
+
+
+#card button{
+    background-color: cadetblue;
+    color: rgb(3, 3, 3); /* Add Friend's color*/
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 12px 10px;
+    border: none;
+    cursor: pointer;
+}
+/* #card #remove{                     now we are commenting this line because our main motive was to build 1 button for add friend and remove
+    background-color: rgb(173, 169, 169);
+
+} */
